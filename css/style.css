@@ -224,8 +224,8 @@ body{
 /* Start Section Our Team */
 .our_team{
     background:url(../images/team.gif) no-repeat center center fixed ;
-    min-height: 600px;
     width: 100%;
+    min-height: 600px;
 }
 .our_team .team_overlay{
     background: rgba(2,2,2,0.8);
@@ -233,4 +233,30 @@ body{
     color: #FFF;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+.our_team h1{
+    margin-bottom: 60px;
+}
+.our_team .person{
+    margin-bottom: 40px;
+}
+
+/* Start Section Subscribe */
+.subscribe{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: #EEE;
+}
+.subscribe h1{
+    color: #888;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.subscribe .form-control{
+    border-radius: 0;
+    margin-right: -5px;
+    width: 300px;
+}
+.subscribe .btn{
+    border-radius: 0;
 }
