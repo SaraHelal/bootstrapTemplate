@@ -2,10 +2,15 @@ body{
     padding-top: 70px;
     height: 4000px;
 }
+h1{font-weight: bold;}
 /****************Start overriding Bootstrap *************************************/
 /*Navbar Link */
 .navbar {
     min-height: 70px;
+}
+.navbar-inverse {
+    background-color: #162830;
+    border-color: #b6bbbb;
 }
 .navbar-inverse .navbar-nav>li>a{
     color: #BBB;
@@ -15,7 +20,7 @@ body{
 }
 /* Navbar Active Background */
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{
-    background-color: #E41B17;
+    background-color: #FE706E;
 }
 
 /* Navbar Brand */
@@ -26,13 +31,13 @@ body{
 
 }
 .navbar-inverse .navbar-brand span{
-    color: #E41B17;
+    color: #FE706E;
 }
 
 /*DropDown Menu */
 .dropdown-menu{
     background-color: #333;
-    border-top: 3px solid #E41B17;
+    border-top: 3px solid #FE706E;
     min-width: 200px;
 }
 .dropdown-menu>li>a{
@@ -45,7 +50,7 @@ body{
 }
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover{
-    background-color: #E41B17;
+    background-color: #FE706E;
     color: #FFF;
     padding-left: 25px;
 }
@@ -86,7 +91,7 @@ body{
 .carousel-indicators .active{
     width: 17px;
     height: 17px;
-    background: #E41B17;
+    background: #FE706E;
 }
 /* End Slider */
 
@@ -94,9 +99,10 @@ body{
 .about {padding-top:60px;padding-bottom:60px}
 .about h1{
     font-weight: bold;
+    color: #fe706e;
 }
 .about h1 span{
-    color: #E41B17;
+    color: ##FE706E;
 }
 .about .lead {color:#888;font-size:25px;margin-top:15px}
 
@@ -107,19 +113,22 @@ body{
 .features {background:#EEE}
 .features h1{
     margin-bottom: 50px;
+    color: #134054;
 }
 .features .feat {margin-bottom:30px}
-
+.features .feat h4{color: #fe706e;}
 .features .feat p {line-height:2em}
 
-.features .feat span.glyphicon {font-size:25px;margin-bottom:10px;color:#666}
+.features .feat span.glyphicon {font-size:25px;margin-bottom:10px;color:#829aa5}
 
 /* End Section Features */
 
 /* Start Section Testimonials */
 .testimonials{
-    padding-top:50px;
-    padding-bottom:50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #15272e;
+    color: #b6bbbb;
 }
 .testimonials h1{
     font-weight: bold;
@@ -132,7 +141,7 @@ body{
 .testimonials span{
     font-size: 18px;
     font-weight: bold;
-    color: #E41B17;
+    color: ##FE706E;
 }
 .testimonials .carousel-inner{
     min-height: 160px;
@@ -163,7 +172,7 @@ body{
     height: 80px;
     opacity: 1;
     background: none;
-    border: 3px solid #E41B17;
+    border: 3px solid #FE706E;
 }
 .testimonials .carousel-indicators li img{
     max-width: 100%;
@@ -178,9 +187,10 @@ body{
 }
 .price_table h1{
     margin-bottom: 40px;
+    color: #134054;
 }
 .price_table .price_box{
-    background: #FFF;
+    background: url("../images/bg-price4.jpg");
     padding: 10px;
     border: 1px solid #DDD;
     margin-bottom: 15px;
@@ -236,6 +246,7 @@ body{
 }
 .our_team h1{
     margin-bottom: 60px;
+    color: #b6bbbb;
 }
 .our_team .person{
     margin-bottom: 40px;
@@ -259,4 +270,16 @@ body{
 }
 .subscribe .btn{
     border-radius: 0;
+}
+
+/* --Start Section Statistics */
+.statistics{
+    background: url("../images/stat.jpg") no-repeat center center fixed;
+    min-height: 300px;
+    
+}
+.statistics .data {
+    background-color: rgba(42, 66, 76,.9);
+    color: #eeeeee;
+    min-height: 300px;
 }
